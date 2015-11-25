@@ -1,11 +1,11 @@
-Demangler
+Demangler [![Build Status](https://travis-ci.org/P4N74/demangler.svg)](https://travis-ci.org/P4N74/demangler)
 =========
 
 > Demangle even the most complex gcc mangled names, with absolute ease
 
 *Demangler* is a module written in Python that can be used to demangle identifiers that were mangled by GCC 3.x and above.
 
-![](demangler.png)
+![](demangler.png =250x)
 
 Usage
 -----
