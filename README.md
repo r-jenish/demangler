@@ -5,7 +5,7 @@ Demangler [![Build Status](https://travis-ci.org/P4N74/demangler.svg)](https://t
 
 *Demangler* is a module written in Python that can be used to demangle identifiers that were mangled by GCC 3.x and above.
 
-![](demangler.png =250x)
+![](demangler.png)
 
 Usage
 -----
