@@ -35,7 +35,7 @@ static PyObject *demangle (PyObject *self, PyObject *args) {
     if ( status == 0 )
         return Py_BuildValue("s",demangled_name);
     else
-        return NULL;
+        return Py_BuildValue("s",mangled_name);
 }
 
 static PyMethodDef DemangleMethods[] = {
