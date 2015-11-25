@@ -39,16 +39,16 @@ static PyObject *demangle (PyObject *self, PyObject *args) {
 }
 
 static PyMethodDef DemangleMethods[] = {
-    {"demangle", demangle, METH_VARARGS, "Demangle the C++ Mangled Name"}
+    {"demangle", demangle, METH_VARARGS, "Demangle the c++ Mangled Name"}
 };
 
-PyMODINIT_FUNC initdemangle(void){
-    (void) Py_InitModule("demangle", DemangleMethods);
+PyMODINIT_FUNC initdemangler(void){
+    (void) Py_InitModule("demangler", DemangleMethods);
 }
 
 int main (int argc, char **argv) {
     Py_SetProgramName(argv[0]);
     Py_Initialize();
-    initdemangle();
+    initdemangler();
     return 0;
 }

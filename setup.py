@@ -22,8 +22,8 @@
 
 from distutils.core import setup, Extension
 
-module = Extension('demangle',sources=['demangle.cpp'])
-setup  (name = "Demangle",
+module = Extension('demangler',sources=['demangle.cpp'])
+setup  (name = "Demangler",
         version = "0.1",
         description = "This is a demangle package",
         author = "Rakholiya Jenish",
