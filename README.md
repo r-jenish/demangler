@@ -5,7 +5,7 @@ Demangler
 
 *Demangler* is a module written in Python that can be used to demangle identifiers that were mangled by GCC 3.x and above.
 
-![](demangler.png =250x)
+![](demangler.png)
 
 Usage
 -----
