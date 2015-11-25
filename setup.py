@@ -27,6 +27,6 @@ setup  (name = "Demangler",
         version = "0.1",
         description = "This is a demangle package",
         author = "Rakholiya Jenish",
-        author_email = "rakholiyajenish@gmail.com",
+        author_email = "rakholiyajenish.07@gmail.com",
         license = "MIT",
         ext_modules = [module])
