@@ -8,10 +8,9 @@ static PyObject *demangle (PyObject *self, PyObject *args) {
     if (!PyArg_ParseTuple(args, "s", &mangled_name))
         return NULL;
     demangled_name = abi::__cxa_demangle(mangled_name,NULL,NULL,&status);
-    if ( status == 0 )
-        return Py_BuildValue("s",demangled_name);
-    else
-        return Py_BuildValue("s",mangled_name);
+    PyObject * po = status == 0 ? Py_BuildValue("s",demangled_name) : Py_BuildValue("s",mangled_name);    
+    free(demangled_name);
+    return po;
 }
 
 static PyMethodDef DemangleMethods[] = {
