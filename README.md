@@ -1,4 +1,4 @@
-Demangler [![Build Status](https://travis-ci.org/P4N74/demangler.svg)](https://travis-ci.org/P4N74/demangler)
+Demangler [![Build Status](https://travis-ci.org/P4N74/demangler.svg)](https://travis-ci.org/P4N74/demangler) [![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]()
 =========
 
 > Demangle even the most complex gcc mangled names, with absolute ease
