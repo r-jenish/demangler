@@ -1,6 +1,6 @@
 from distutils.core import setup, Extension
 
-module = Extension('_demangler', sources=['demangle.cpp'])
+module = Extension('demangler', sources=['demangle.cpp'])
 setup(name="Demangler",
       version="0.2",
       description="A demangler package for gcc 3.x and gcc 4.x",
@@ -10,6 +10,6 @@ setup(name="Demangler",
     :target: https://travis-ci.org/P4N74/demangler",
       keywords="demangle gcc",
       license="MIT",
-      scripts=['demangler.py'],
+      scripts=['_demangler.py'],
       url="https://github.com/P4N74/demangler",
       ext_modules=[module])

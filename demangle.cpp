@@ -70,19 +70,19 @@ static PyObject *demangle (PyObject *self, PyObject *args) {
     return po;
 }
 
-PyMODINIT_FUNC MOD_INIT(_demangler)(void) {
+PyMODINIT_FUNC MOD_INIT(demangler)(void) {
     static PyMethodDef DemangleMethods[] = {
         {"demangle", demangle, METH_VARARGS, "Demangle the c++ Mangled Name"},
         {NULL, NULL, 0, NULL}
     };
     PyObject *m;
-    MOD_DEF(m, _demangler, DemangleMethods);
+    MOD_DEF(m, demangler, DemangleMethods);
     return MOD_SUCCESS_VALUE(m);
 }
 
 int main (int argc, char **argv) {
     MOD_SET_PROGRAM_NAME(argv[0]);
     Py_Initialize();
-    MOD_INIT(_demangler)();
+    MOD_INIT(demangler)();
     return 0;
 }
