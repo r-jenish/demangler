@@ -25,7 +25,7 @@ or, if you are feeling particularly adventurous
 ```
 git clone https://github.com/P4N74/demangler.git
 cd demangler
-sudo apt-get install g++ python-dev
+sudo apt-get install g++ python-dev python3-dev
 python setup.py install
 ```
 
