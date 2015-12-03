@@ -27,6 +27,7 @@ git clone https://github.com/P4N74/demangler.git
 cd demangler
 sudo apt-get install g++ python-dev python3-dev
 python setup.py install
+python3 setup.py install
 ```
 
 Boring stuff
