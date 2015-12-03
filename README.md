@@ -1,4 +1,4 @@
-Demangler [![Build Status](https://travis-ci.org/P4N74/demangler.svg)](https://travis-ci.org/P4N74/demangler) [![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]() [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](http://jenish.mit-license.org/)
+Demangler [![Build Status](https://travis-ci.org/P4N74/demangler.svg)](https://travis-ci.org/P4N74/demangler) [![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]() [![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)](http://jenish.mit-license.org/)
 =========
 
 > Demangle even the most complex gcc mangled names, with absolute ease
